@@ -1,0 +1,566 @@
+/*
+Theme Name: MKdesign
+Description: theme created for the design page of Margarete Koenen
+Author: Margarete Koenen
+Template: twentyten
+*/
+   
+@import url("../twentyten/style.css");
+
+h1, h2, h3, h4, h5, h6, p, blockquote, abbr, acronym, address, code, dl, dt, dd, ol, ul, li, tr, th, td {
+	color:#ECECED;
+}
+
+#content a, #footer a {
+	font-size:1em;
+	color:#dbb799;
+	text-decoration:none;
+}
+
+#content a:hover, #content a:active, #footert a:hover, #footer a:active {
+	color:#D67421;
+	text-decoration:none;
+}
+
+#content h1, #content h2, #content h3, #content h4, #content p {
+	color:#ECECED;
+	margin:0;
+}
+
+#content .pimage a img, #content .pimage_left a img, .gallery-icon a img {
+	box-shadow:1px 2px 5px #1C3236;
+	-moz-box-shadow:1px 2px 5px #1C3236;
+	-webkit-box-shadow:1px 2px 5px #1C3236;
+}
+
+.gallery-icon a img {
+	box-shadow:1px 2px 5px #1C3236;
+	-moz-box-shadow:1px 2px 5px #1C3236;
+	-webkit-box-shadow:1px 2px 5px #1C3236;
+}
+
+body {
+	background-color:#5B686E;
+	background-image:url(images/bgshadow.jpg);
+	background-position:top;
+	background-repeat:repeat-x;
+	
+	}
+	
+#main {
+	overflow:visible;
+}
+	
+#access .menu-header, div.menu, #colophon, #branding, #main, #wrapper {
+	width:100%;
+	border:none;
+	}
+
+#wrapper {
+	margin-top:0;
+	padding:0;
+	background-color:#5B686E;
+	background-image:url(images/bgshadow.jpg);
+	background-position:top;
+	background-repeat:repeat-x;
+	}
+
+#header {
+	padding:0;
+	}
+
+#wideheader {
+	background-color:#ECECED;
+}
+
+#main {
+	width:980px;
+}
+
+ #footer {
+	width:940px;
+	margin:0 auto;
+	/*background-color:#c6cdcf;
+	background-image:url(images/shadow.jpg);
+	background-position:top;
+	background-repeat:repeat-x;*/
+}
+	
+#access {
+	width:100%;
+	background:none repeat scroll 0 0 #1C3236;
+	height:25px;
+	}
+	
+#masthead #access {
+	float:none;
+}
+	
+#access ul a {
+	color:#ECECED;
+	line-height:25px;
+	font-weight:bold;
+	padding:0 20px;
+	}
+	
+#access .menu-header, div.menu {
+	font-size:14px;
+	margin:0 auto;
+	width:960px;
+	}
+	
+#access ul li.current_page_item > a, #access ul li.current-menu-ancestor > a, #access ul li.current-menu-item > a, #access ul li.current-menu-parent > a {
+	/*background-color:#D67421;*/
+	background-image:url(images/nav_button5.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	color:#ECECED;
+	}
+	
+#access ul li:hover >a, #access ul ul:hover >a, #access ul li:active >a, #access ul ul:active >a {
+	/*background-color:#ec8c3b;*/
+	background-image:url(images/nav_button5.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	color:#ECECED	
+	}
+	
+#access ul ul li {
+	display:none;
+}
+
+#white-strip {
+	position:relative;
+	width:960px;
+	height:105px;
+	margin:0 auto;
+}
+	
+#branding {
+	background-image:url(images/waxing_pearl_logo3.png);
+	background-position:100px 24px;
+	background-repeat:no-repeat;
+	width:520px;
+	float:left;
+}
+	
+#site-title {
+	line-height:36px;
+	margin:30px 0 0 220px;
+	text-indent:-2000px;
+	}
+	
+#site-title a {
+	color:#993300;
+	font-weight:normal;
+	text-decoration:none;
+	font-size:40px;
+}
+a#homelink {
+    padding: 0 300px 90px;
+}
+
+#site-description {
+    clear: right;
+    float: right;
+    font-style: italic;
+    margin: 14px 0 18px;
+    text-indent: -2000px;
+    width: 220px;
+	}
+
+
+#main {
+	padding:0 0 0 0;
+	}
+	
+#content {
+	margin:0 0px 0 0px;
+	position:relative;
+	}
+	
+/*#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
+	color:#ECECED;
+}*/
+	
+#content .wp-caption {
+	float:left;
+	margin:4px 8px 20px;
+	width:215px !important;
+	height:250px;
+	background:none repeat scroll 0 0 #ECECED;
+}
+
+.page .entry-content {
+	clear:both;
+	padding:12px 10px 0;
+}
+
+
+#content .wp-caption img {
+	margin:20px 5px;
+}
+
+.wp-caption-dd p {
+	margin-top:5px;
+}
+
+#content p, #content ul, #content ol, #content dd, #content pre, #content hr {
+	margin-bottom:0px;
+	}
+	
+#content .explanation {
+	float:right;
+	margin:10px 0 0;
+	width:280px;
+}
+
+#content .explanation p {
+	/*color:#ECECED;*/
+	font-size:1em;
+	padding:12px 0 0 0;
+}
+
+
+#content .explanation-bird {
+	float:right;
+	width:180px;
+}
+
+#content .explanation-home {
+	float:right;
+	width:280px;
+	padding:0px 20px 0 0
+}
+
+#content .explanation-home p {
+	/*color:#ECECED;*/
+	font-size:1em;
+	padding:10px 0 0 12px;
+}
+	
+#content .gallery img {
+	border:none;
+	margin:20px 0 0 0;
+	}
+	
+#content img.alignleft, #content img.alignright, #content img.aligncenter {
+	margin-bottom:30px;
+	}
+	
+#content img.a2im {
+	margin-left:80px;
+}
+
+.portfolio-slideshow .slideshow-title {
+	background-image:url(images/arrow.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+	position:absolute;
+	left:650px;
+	top:363px;
+	width:300px;
+	height:25px;
+	overflow:visible;
+	font-weight:bold;
+}
+
+.portfolio-slideshow p.slideshow-title  {
+	padding-left:30px;
+}
+
+.portfolio-slideshow .slideshow-description{
+	position:absolute;
+	left:680px;
+	top:385px;
+	width:300px;
+	height:130px;
+	overflow:visible;
+}
+
+.slideshow-wrapper .slideshow-nav {
+	position:absolute;
+	top:480px;
+	}
+
+.pimage_left {
+	float:left;
+	margin:20px 10px;
+}
+
+.pimage {
+	float:left;
+	margin:20px 10px;
+	margin-left:50px;
+}
+
+/*#content .jdGallery a.carouselBtn {
+	color:#000000;
+}
+
+.jdGallery a.left {
+	left:-5px!important;
+	}
+	
+.jdGallery a.right {
+	right:-5px !important;
+	}
+*/	
+#dfcg-outer-wrapper #dfcg-fullsize {
+    margin-top:15px;
+}
+	
+#dfcg-image img {
+    position: absolute;
+    width: auto;
+    z-index: 25;
+	margin-top:10px;
+}
+
+#myGallery {
+	margin: 10px 0 0 0px;
+}
+
+#gallery {
+	width:640px;
+	overflow:hidden;
+	min-height:600px;
+	margin:10px 0 0 0;
+}
+
+/*
+#content .galleryview {
+	padding:0 10px !important;
+	height:647px !important;
+	width:620px !important;
+}
+
+#content .panel .panel-overlay h2 {
+	padding:0px 0 0 !important;
+}
+
+#content .galleryview .panel img {
+	margin:0px 0 0 !important;
+	width:auto !important;
+	position:none!important;
+	height:460px !important;
+	top:10px !important;
+}
+
+#content .galleryview img.full {
+	height:75px !important;
+	overflow:hidden;
+}
+
+.panel .panel-overlay, .panel .overlay-background {
+	height:80px!important;
+}
+
+.panel .panel-overlay {
+	padding:inherit;
+}
+
+.panel .panel-overlay h2{
+	padding:inherit;
+	font-size:16px !important;
+}
+
+.panel .panel-overlay p{
+	font-size:14px !important;
+}
+
+#content .galleryview img.nav-next, #content .galleryview img.nav-prev{
+	margin:0 0 0;
+	top:590px !important;
+}
+
+.galleryview .strip_wrapper {
+	overflow:visible !important;
+	left:-10px !important;
+}
+
+.galleryview img.nav-next, .galleryview img.nav-prev {
+	display:none !important;
+} */
+ 
+
+#laband_banner h2 {
+	font-size:16px;
+	margin:0 0 15px 0;
+}
+#laband_banner p {
+	width:600px;
+}
+
+#content .gallery dd.gallery-caption {
+color:#ECECED;
+font-size:12px;
+margin:0 0 12px;
+}
+
+.pointer {
+	border-color:#000000;
+	top:550px !important;
+}
+
+
+#skinnytip_container {
+	width:200px !important;
+	border:1px solid #1C3236 !important;
+	background-color:#5B686E !important;
+}
+
+#skinnytip_title {
+	background-color:#5B686E !important;
+	margin:5px 10px !important;
+	color:#ECECED!important;
+}
+
+#skinnytip_content {
+	background-color:#5B686E !important;
+	margin:5px 10px !important;
+	color:#ECECED!important;
+}
+
+.widget-title {
+	color:#ECECED;
+	font-weight:bold;
+}
+	
+#dropdown-menu-3 {
+    height: 115px;
+    left: 685px;
+    list-style-type: none;
+    margin: 0;
+    position: absolute;
+    top: 25px;
+    width: 151px;
+}
+
+#shailan-dropdown-wrapper-3 {
+	margin:59px 0 0 0;
+}
+
+#dropdown-menu-3 li a:hover {
+	color: #D67421 !important;
+}
+
+ul.dropdown li {
+	background-color:#ECECED !important;
+	border-color:transparent!important;
+	border-style:solid!important;
+	border-width:0!important;
+	color:#D67421!important;
+    position: relative;
+    right: 5px;
+    text-align: center;
+}
+
+ul.dropdown li{
+	width:120px !important;
+}
+
+ul.dropdown-vertical ul {
+	width: 410px!important;
+	position:absolute !important;
+	top:-100px!important;
+	left:0px!important;
+	border-color:#ddd!important;
+	border-style:solid!important;
+	border-width:1px 1px 0px 0!important;
+	background-color:#ECECED !important;
+	margin-left: -60px!important;
+	margin-top: 5px !important;
+}
+
+ul.dropdown ul li, ul.dropdown-vertical {
+    /*margin-left: -10px!important;*/
+}
+
+ul.dropdown-vertical ul li {
+	width:135px!important;
+	float:left!important;
+	border:none !important;
+}
+
+
+li.current-cat a, li.current_page_item a, li.current-menu-item a, li.current-cat a:link, li.current_page_item a:link, li.current-menu-item a:link, li.current-cat a:visited, li.current_page_item a:visited, li.current-menu-item a:visited {
+    color: #D67421 !important;
+}
+
+#laband_banner {
+	margin-top:250px;
+}
+
+#content #portrait {
+	float:right;
+	padding: 10px 0 20px 20px;
+	width: 192px;
+	height:200px;
+}
+#about_me {
+	width:700px;
+	float:left;
+}
+
+#contact {
+	margin-left:720px;
+	padding-left:20px;
+	border-left:1px solid #ECECED
+}
+
+.entry-caption p {
+	color:#1C3236;
+	width:400px;
+	text-align:center;
+	margin:0 auto;
+}
+
+.freebiestext p{
+	text-align:center;
+}
+#content .freebiestext {
+	margin-top:30px;
+	text-align:center;
+}
+
+ul.hover_block { 
+	display: block; 
+	overflow: hidden; 
+	height: 1%; 
+	padding-bottom: 15px; }
+			
+ul.hover_block li {
+			list-style:none;
+			/*float:left;*/
+			background: #fff;
+			/*padding: 10px;*/
+			width:259px; 
+			position: relative;
+			/*margin-right: 20px;*/ }
+
+ul.hover_block li a {
+			display: block;
+			position: relative;
+			overflow: hidden;
+			height: 160px;
+			padding: 16px;
+			font: 1.6em/1.3 Helvetica, Arial, sans-serif;
+		}
+
+ul.hover_block li a { text-decoration: none; }
+
+ul.hover_block li img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			border: 0;
+		}
+
+
+
+	
+
+	
+
+	
