@@ -3,7 +3,7 @@
 /*
 Plugin Name: a2im app
 Plugin URI: http://mu.danpolant.com	
-Description: Plugin for a2im
+Description: Plugin for A2IM
 Author: Dan Polant
 Author URI: http://danpolant.com
 */
