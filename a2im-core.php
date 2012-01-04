@@ -335,7 +335,7 @@ function atwo_activity_filter_edit( $component_links ){
 //_________________________________________________________________________
 
 
-//MK: creates an excerpt for bplogposts in activity feed but this does not seem to be doing anything. Not working?
+//MK: creates an excerpt for bplogposts in activity feed but this does not seem to be doing anything. Not working? Maybe it affects personal activity display?
 add_filter( 'bp_blogs_activity_new_post', 'atwo_alter_blog_post_notification', 3, 3 );
 function atwo_alter_blog_post_notification( $activity_content, &$post, $post_permalink ){	
 
@@ -347,7 +347,7 @@ function atwo_alter_blog_post_notification( $activity_content, &$post, $post_per
 
 //___________________________________________________________________________
 
-//MK: creates an excerpt for comments in coactivity feed but this does not seem to be doing anything. Not working?
+//MK: creates an excerpt for comments in coactivity feed but this does not seem to be doing anything. Not working? Maybe it affects personal activity display?
 add_filter( 'bp_blogs_activity_new_comment', 'atwo_alter_comment_notification', 3, 4 );
 function atwo_alter_comment_notification( $activity_content, &$comment, &$recorded_comment, $comment_link ){
 	$activity_content = sprintf( __( '%s commented on %s', 'buddypress' ), bp_core_get_userlink( $user_id ), '<a href="' . $comment_link . '#comment-' . $comment->comment_ID . '">' . $comment->post->post_title . '</a>' );			
